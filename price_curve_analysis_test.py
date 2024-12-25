@@ -1,5 +1,5 @@
 import pytest
-from main import is_convex, is_concave, is_increasing, is_decreasing
+from price_curve_analysis import is_convex, is_concave, is_increasing, is_decreasing
 
 # Test data
 convex_data = [

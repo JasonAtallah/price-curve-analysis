@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chart-utils"
+name = "price-curve-analysis"
 version = "0.1.0"
 description = ""
 authors = ["Jason Atallah <jasonatallah@gmail.com>"]
