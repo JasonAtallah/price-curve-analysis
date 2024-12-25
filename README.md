@@ -25,7 +25,7 @@ cd price-curve-analysis
 The package provides four main functions for analyzing price curves:
 
 ```python
-from main import is_convex, is_concave, is_increasing, is_decreasing
+from price_curve_analysis import is_convex, is_concave, is_increasing, is_decreasing
 
 # Example data points
 data = [
@@ -73,5 +73,5 @@ Verifies if prices are strictly decreasing over time.
 The package includes comprehensive tests. To run the tests:
 
 ```bash
-pytest main_test.py
+pytest price_curve_analysis_test.py
 ```
